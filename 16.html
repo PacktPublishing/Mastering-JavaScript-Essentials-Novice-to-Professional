@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Javascript</title>
+</head>
+<body>
+  <p>We are learning Javascript Programming</p>
+  <script>
+    // Keep changing the values of these variables between true/false to have different results.
+    var library = true;
+    var computerSection = true;
+    var programmingSection = true;
+    var javascriptProgrammingSection = true;
+    var pythonProgrammingSection = true;
+    var result;
+    if(library == true){
+      if(computerSection == true){
+        if(programmingSection == true){
+          if(javascriptProgrammingSection == true){
+            result = "We got the JavaScript Book Yayyy!";
+          } else if (pythonProgrammingSection == true) {
+            result = "We got the Python Book Yayyy!";
+          } else {
+            result = "Everything is open but no javascript for now.";
+          }
+        } else {
+          result = "Library and the Computer Section is open but no for programming";
+        }
+      } else {
+        result = "Library is open but Computer Section is not :( sad life";
+      }
+    } else {
+      result = "Library is even not open :( sad!";
+    }
+    document.write(result);
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Javascript</title>
+</head>
+<body>
+  <p>We are learning Javascript Programming</p>
+  <script>
+
+    // Keep changing the values of these variables between true/false to have different results.
+    var mathBook = false;
+    var scienceBook = false;
+    var litratureBook = false;
+
+    var bookWeGot;
+    if(mathBook == true){
+      bookWeGot = "Math Book";
+    } else if(scienceBook == true){
+      bookWeGot = "Science Book";
+    } else if(litratureBook == true) {
+      bookWeGot = "Litrature Book";
+    } else {
+      bookWeGot = "Got no Book! :(";
+    }
+
+    document.write(bookWeGot);
+  </script>
+</body>
+</html>
